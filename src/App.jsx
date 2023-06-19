@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Navbar from "./Navbar";
-import Stays from "./components/Stays/Stays";
+import Navbar from "./Navbar/Navbar";
+import Stays from "./Navbar/Stays";
 
 function App() {
   const [city, setCity] = useState(0);

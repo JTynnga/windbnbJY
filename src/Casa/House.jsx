@@ -1,6 +1,6 @@
 import React from "react";
 import StarIcon from "@mui/icons-material/Star"; //libreria de Iconos
-import "./House.css"; //css para casa
+import "../Casa/House.css"; //css para casa
 
 const House = ({ house, handle }) => {
   return (

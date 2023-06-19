@@ -1,5 +1,5 @@
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import Stays from "stays.json";
+import Stays from "./stays.json";
 import "./CityList.css";
 import { useEffect, useState } from "react";
 

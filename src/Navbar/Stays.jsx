@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import House from "../House/House";
-import StaysList from "stays.json";
+import House from "../Casa/House";
+import StaysList from "./stays.json";
 import "./Stays.css";
-import InfoHouse from "./InfoHouse";
+import InfoHouse from "../Casa/InfoHouse";
 
 const Stays = (props) => {
   const [numStays, setNumStays] = useState(StaysList.length);
